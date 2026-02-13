@@ -1,0 +1,4 @@
+.gradient {
+  background: linear-gradient(90deg, rgba(228, 168, 190, 0.7) 46%, rgba(164, 168, 193, 0.7) 91%);
+  overflow-y: hidden;
+}
