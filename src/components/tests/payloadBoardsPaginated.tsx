@@ -4,7 +4,7 @@ import { GlobalNode } from "./types";
 const LENGTH_NON_SOURCE = 5;
 let i = 0;
 
-const BoardsPayload: GlobalNode[] = [
+const BoardsPayloadPaginated: GlobalNode[] = [
   {
     id: 1,
     label: "09/04/2026",
@@ -81,6 +81,17 @@ const BoardsPayload: GlobalNode[] = [
       y: -300,
     },
   },
+  {
+    id: 7,
+    label: "...",
+    nodeRender: NodeRender.OPTION,
+    nodeType: NodeType.OPTION,
+    target: 0,
+    position: {
+      x: (250 + LENGTH_NON_SOURCE * 250) / 2,
+      y: -500,
+    },
+  },
 ];
 
-export default BoardsPayload;
+export default BoardsPayloadPaginated;

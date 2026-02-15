@@ -19,11 +19,11 @@ export type OptionNode = Node<
   "option_node"
 >;
 
-export type BoardDisplay = Node<
+export type BoardNode = Node<
   {
     title: string;
     miniature: string;
     tags: string[];
   },
-  "board-node"
+  "board_node"
 >;
