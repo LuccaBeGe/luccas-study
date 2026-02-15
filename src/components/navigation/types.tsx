@@ -3,3 +3,7 @@ export type Options = {
   icon: React.ReactNode;
   url?: string;
 };
+
+export interface FloatingOptions {
+  label: string;
+}

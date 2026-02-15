@@ -66,3 +66,27 @@ export const DashedDivider = styled.div`
   margin-bottom: 15px;
   border-bottom: rgba(217, 217, 217, 0.3) 3px dashed;
 `;
+
+export const NavButton = styled.button`
+  font-size: 1.3rem;
+  background-color: rgba(0, 0, 0, 0.4);
+  padding: 10px 20px;
+  color: rgba(212, 255, 203, 0.8);
+  border-style: none;
+  border: solid #555976 px;
+  border-radius: 10px;
+
+  &:hover {
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.2);
+  }
+`;
+
+export const NavButtonContainer = styled.div`
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 15px;
+`;
